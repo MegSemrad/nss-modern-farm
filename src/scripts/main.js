@@ -46,3 +46,17 @@ import { createWheat } from "./seeds/wheat.js"
 
 const wheatSeed = createWheat()
 console.log(wheatSeed);
+
+
+import { addPlant } from './field.js'
+addPlant(cornSeed)
+addPlant(sunflowerSeed)
+addPlant(potatoSeed)
+addPlant(asparagusSeed)
+addPlant(soybeanSeed)
+addPlant(wheatSeed)
+
+
+import { usePlants } from './field.js'
+const plants = usePlants()
+console.log("Plants", plants)
