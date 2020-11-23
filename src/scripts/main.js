@@ -49,9 +49,6 @@ console.log(wheatSeed);
 
 
 
-
-
-
 import { addPlant } from './field.js'
 addPlant(cornSeed)
 addPlant(sunflowerSeed)
